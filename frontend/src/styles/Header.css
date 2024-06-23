@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo__description {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.header__links-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header__links-link:not(:last-child) {
+    margin-right: 22px;
+}
+
+.header__links-link:hover {
+    color: black;
+}
